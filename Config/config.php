@@ -1,7 +1,7 @@
 <?php
 //Routes
 define('DS', DIRECTORY_SEPARATOR);
-define('ROOT', getcwd() . DS . '..'  . DS);
+define('ROOT', str_replace(DS . 'Public', '', getcwd())  . DS);
 define('DOMAIN', 'https://localhost' . DS);
 
 //Errors

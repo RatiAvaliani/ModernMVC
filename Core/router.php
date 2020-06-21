@@ -14,6 +14,8 @@ class router {
     private $variables = [];
     private $urlStatus = false;
     private static $listOfVars = [];
+    private static $pagePath = '/home';
+    public static $loadComplete = false;
 
     /**
      * router constructor.
@@ -21,23 +23,29 @@ class router {
      * @param array $variables
      * getting urlStatus this will be true or false depending if the request url and get or post url matches
      */
-    function __construct ($urlStatus=false, $variables=[]) {
+    public function __construct ($urlStatus=false, $variables=[]) {
         $this->variables = $variables;
         $this->urlStatus = $urlStatus;
+    }
+
+    public function __destruct() {
+        // TODO: Implement __destruct() method.
     }
 
     /**
      * @param null $fileName
      * @return null
      * this function is used in routes folder like -> self::get(...)->view(filename);
+     * and you can chane views self::get(...)->view(filename)->view(filename)->view(filename)
      */
-    public function view ($fileName=null) {
+    public function view ($fileName=null, $parameters=null) {
         if (is_null($fileName)) {
             self::render(ERROR404);
             return self::error('file name empty.');
         }
 
-        self::render(VIEW_PATH . $fileName . '.php');
+        self::render(VIEW_PATH . $fileName . '.php', $parameters);
+        return $this;
     }
 
 
@@ -49,29 +57,25 @@ class router {
      * getting all of the requests and sorting get, post request. ($_REQUEST['cont] can be used if there is no use for $_GET or $_POST).
      */
     private static function request ($url=null, $callback=null, $type='get') {
+        if (self::$loadComplete === true) exit();
+
         if ($type === 'get')  {
-            $requestContent = $_GET['cont'];
+            $requestContent = array_key_exists('cont', $_GET) ? $_GET['cont'] : self::error('install .htaccess file.');
         } else if ($type === 'post') {
-            $requestContent = $_POST['cont'];
+            $requestContent = array_key_exists('cont', $_POST) ? $_POST['cont'] : self::error('install .htaccess file.');
         }
 
-        if (is_null($callback)) {
-            self::loadController('get');
-            $resort = self::compareRequest($requestContent, $url);
-            return new router($resort, self::getUrlVariables());
+        $result = self::compareRequest($requestContent, $url);
+        $variables = self::getUrlVariables();
+        $router = new router($result, $variables);
+
+        if (is_null($callback) && $result === true) {
+            self::loadController('get', self::$pagePath, $variables);
+            return $router;
         }
 
-        if ($_GET['cont'] === "" && ($url === "" || $url === "/" )) {
-            $callback(self::getUrlVariables());
-        }
-
-        $resort = self::compareRequest($requestContent, $url);
-        $router = new router($resort, self::getUrlVariables());
-
-        if ($resort === true) {
-            $callback(self::getUrlVariables());
-        } else {
-            self::render(ERROR404);
+        if ($_GET['cont'] === "" && ($url === "" || $url === "/" ) || $result === true) {
+            $callback($variables);
         }
 
         return $router;
@@ -114,20 +118,19 @@ class router {
      * @param null $url
      * @param null $request
      * @return bool|null|string|string[]
-     * this method saves the path to the url in session and using it to get controller/model/view files.
+     * this method saves the path to the url in pagePath var and using it to get controller/model/view files.
      */
     protected static function setUrlPath ($url=null, $request=null) {
-        if (is_null($url) && is_null($request)) return self::error('error var empty');
+        if (is_null($url) && is_null($request)) return self::error('variables are empty');
 
-        if ($request === "" && $url === "/") {
-            self::setSession('/home', 'path');
+        if ($request === "" && $url === "/" || '/'.$request === self::$pagePath) {
             return null;
         }
 
         $realUrl = preg_replace('/([\/][$]{(\w+)})/', '', $url);
         $realUrl = $realUrl[0] === "/" ? substr($realUrl, 1) : $realUrl;
-        self::setSession($realUrl, 'path');
 
+        self::$pagePath = $realUrl;
         return $realUrl;
     }
 
@@ -140,12 +143,11 @@ class router {
     protected static function compareRequest ($request=null, $url=null) {
         if (is_null($request) && is_null($url)) return null;
 
-        if ($request === "" && $url === "/") {
-            self::setSession('/home', 'path');
+        if ($request === "" && $url === "/" || '/'.$request === self::$pagePath) {
             return true;
         }
 
-        $realUrl = self::setUrlPath($url);
+        $realUrl = self::setUrlPath($url, $request);
         $realUrlVariableCount = preg_match_all("/([\/][$]{(\w+)})/", $url);
         $requestUrlCunt = preg_match_all('/(\w+)/', $request);
 
@@ -158,6 +160,10 @@ class router {
             if (count($variableList) !== count($variableKeyList)) return false;
 
             self::$listOfVars = array_combine($variableKeyList, $variableList);
+
+            if (count($variableList) > count(self::$listOfVars)) self::error('passed variable names are same. router::get("/.../${same}/${same}")');
+
+            self::$loadComplete = true;
 
             return true;
         }

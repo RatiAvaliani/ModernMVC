@@ -8,7 +8,8 @@ class home extends controller {
         parent::__construct();
     }
 
-    public function index () {
+    public function index ($paremeters) {
         echo '<h1>Welcome</h1>';
+        var_dump($paremeters);
     }
 }

@@ -2,6 +2,7 @@
 
 namespace Core;
 
+
 class request {
 
     /*
@@ -25,6 +26,16 @@ class request {
     function __construct () {
         $this->autoLoad()->startSession();
         require_once(ROUTES);
+
+        if (router::$loadComplete === false) $this->return404();
+    }
+
+    /**
+     * if render failed to load content or view, this code will load 404 error;
+     */
+    public function return404 () {
+        require_once (ERROR404);
+        exit();
     }
 
     /**

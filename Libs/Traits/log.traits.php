@@ -32,6 +32,18 @@ trait log {
     }
 
     /**
+     * @param null $data
+     * prints passed parameter
+     */
+    public static function look ($data=null) {
+        if (is_null($data)) self::error('parameter empty');
+
+        echo '<pre>';
+        print_r($data);
+        echo '</pre>';
+    }
+
+    /**
      * @param string $message
      * write adds content to log.txt
      */
@@ -48,6 +60,7 @@ trait log {
      */
     public static function fileInfo () {
         $fileInfo = debug_backtrace();
+
         if (array_key_exists(1, $fileInfo)) {
             self::$logMethod = $fileInfo[1]['function'];
         } else {

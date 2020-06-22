@@ -36,7 +36,7 @@ class router {
      * @param null $fileName
      * @return null
      * this function is used in routes folder like -> self::get(...)->view(filename);
-     * and you can chane views self::get(...)->view(filename)->view(filename)->view(filename)
+     * and you can chane Views self::get(...)->view(filename)->view(filename)->view(filename)
      */
     public function view ($fileName=null, $parameters=null) {
         if (is_null($fileName)) {

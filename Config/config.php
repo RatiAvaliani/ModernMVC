@@ -13,6 +13,15 @@ define('REQUEST', CORE . 'request.php');
 define('ROUTER',  CORE . 'router.php');
 define('ROUTES',  CORE . 'routes.php');
 
+//Database Config
+define('DB_CONFIG', array(
+    'host'  => 'localhost',
+    'user'  => 'root',
+    'pass'  => '',
+    'db'    => 'project',
+    'drive' => 'mysql'
+));
+
 //Folders
 define('LOGS_PATH', ROOT . 'Logs' . DS);
 define('LOGS', ROOT . 'Logs' . DS . 'logs.php');

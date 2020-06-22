@@ -14,7 +14,8 @@ class request {
         'view'       => VIEW_PATH,
         'interface'  => INTERFACE_PATH,
         'core'       => CORE,
-        'traits'     => TRAIT_PATH
+        'traits'     => TRAIT_PATH,
+        'libs'       => LIBS_PATH
     ];
 
     /**

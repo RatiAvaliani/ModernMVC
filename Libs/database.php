@@ -10,7 +10,7 @@ class Database {
     protected $key       = array();
 
     /*
-     * database config.
+     * database config
      */
     protected static $config = array(
         'driver' => 'mysql',

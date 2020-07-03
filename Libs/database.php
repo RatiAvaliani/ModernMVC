@@ -73,13 +73,9 @@ class Database {
      * un sets the password
      */
     public function __construct ($driver, $host, $database, $user, $password = null ) {
-      //  set_exception_handler(array( __CLASS__, 'safe_exception' ) );
-
         $this->db = new \pdo( $driver . ':host=' . $host . ';dbname=' . $database, $user, $password, array(
             \PDO::ATTR_ERRMODE => \PDO::ERRMODE_EXCEPTION
         ) );
-
-        //restore_exception_handler();
 
         $this->db->exec('SET NAMES "UTF8"');
         $this->info = (object) array_combine( static::$arguments, func_get_args() );
@@ -101,14 +97,6 @@ class Database {
         if ( is_array( $key ) ) return array_map( 'static::config', array_keys( (array) $key ), array_values( (array) $key ) );
 
         if ( isset( static::$config[ $key ] ) ) return static::$config[ $key ];
-    }
-
-    /**
-     * @param Exception $exception
-     * dies and returns error passed from exception
-     */
-    public static function safe_exception (Exception $exception ) {
-        die( 'Uncaught exception: ' . $exception->getMessage() );
     }
 
     /**
@@ -141,7 +129,6 @@ class Database {
         $this->result = isset( $this->statement[ $sql ] ) ?
             $this->statement[ $sql ] :
             $this->statement[ $sql ] = $this->db->prepare( self::_uncomment( $sql ) );
-
         $this->result->execute( $params );
 
         return $this;
@@ -267,14 +254,19 @@ class Database {
 
     static protected function _column ( array $data, $field ) {
         $column = array();
-        foreach ( $data as $key => $row )
-            if ( is_object( $row ) && isset( $row->{$field} ) ) $column[ $key ] = $row->{$field};
 
-            else if ( is_array( $row ) && isset( $row[ $field ] ) ) $column[ $key ] = $row[ $field ];
+        foreach ( $data as $key => $row ) {
 
-            else $column[ $key ] = null;
+            if ( is_object( $row ) && isset( $row->{$field} ) ) {
+                $column[ $key ] = $row->{$field};
+            } else if ( is_array( $row ) && isset( $row[ $field ] ) )  {
+                $column[ $row[$field] ] = $row;
+            } else {
+                $column[ $key ] = null;
+            }
+        }
 
-            return $column;
+        return $column;
     }
 
     static protected function _index ( array $data, $field ) {
@@ -292,7 +284,9 @@ class Database {
 
     public function read ( $table, $id, $key = null ) {
         $key = $key ?: current( $this->key( $table ) );
+
         $sql = 'SELECT * FROM ' . $this->_table( $table ) . ' WHERE ' . self::_params( $key );
+
         return $this->query( $sql, array( ':' . $key => $id ) );
     }
 
@@ -322,7 +316,7 @@ class Database {
         if ( ! $this->result ) throw new Exception( 'Can\'t fetch result if no query!' );
 
         return $class === false ?
-            $this->result->fetch( PDO::FETCH_ASSOC ) :
+            $this->result->fetch( \PDO::FETCH_ASSOC ) :
             $this->result->fetchObject( $class ?: self::config( 'fetch' ) );
     }
 
@@ -330,8 +324,8 @@ class Database {
         if ( ! $this->result ) throw new Exception( 'Can\'t fetch results if no query!' );
 
         return $class === false ?
-            $this->result->fetchAll( PDO::FETCH_ASSOC ) :
-            $this->result->fetchAll( PDO::FETCH_CLASS, $class ?: self::config( 'fetch' ) );
+            $this->result->fetchAll( \PDO::FETCH_ASSOC ) :
+            $this->result->fetchAll( \PDO::FETCH_CLASS, $class ?: self::config( 'fetch' ) );
     }
 
     public function column ( $field, $index = null ) {
@@ -380,7 +374,7 @@ class Database {
 
         if ( ! $fields->rowCount() ) throw new Exception( 'No ' . $this->_table( $table ) . ' table, please specify a valid table' );
 
-        return $this->table[ $table ] = self::_index( $fields->fetchAll( PDO::FETCH_CLASS ), 'name' );
+        return $this->table[ $table ] = self::_index( $fields->fetchAll( \PDO::FETCH_CLASS ), 'name' );
     }
 
     public function quote ( $value ) {

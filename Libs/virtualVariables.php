@@ -6,10 +6,9 @@
  * Time: 5:11 AM
  */
 
-namespace virtualVariables;
-use Libs\database;
+namespace Libs;
 
-class virtualVariableModule {
+class virtualVariables {
 
     public static $sqlFile = 'sqlInstall.sql';
     public static $getParameter = 'type';
@@ -52,7 +51,7 @@ class virtualVariableModule {
     public function get ($Id=null) {
         if (is_null($Id)) self::error('passed type is null');
 
-        $GLOBALS['db']->reed(self::$tableName, 'id', $Id);
+        $GLOBALS['db']->read(self::$tableName, 'id', $Id);
 
         return $this;
     }
@@ -63,9 +62,9 @@ class virtualVariableModule {
      *  returns full list of virtual variables or filters using type id
      */
     public function getAll ($typeId=null) {
-        if (is_null($typeId)) return $GLOBALS['db']->reed(self::$tableName);
+        if (is_null($typeId)) return $GLOBALS['db']->read(self::$tableName);
 
-        return $GLOBALS['db']->reed(self::$tableName, self::$getParameter, $typeId);
+        return $GLOBALS['db']->read(self::$tableName, $typeId, self::$getParameter);
     }
 
     /**

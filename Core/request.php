@@ -25,7 +25,7 @@ class request {
      * getting routes.
      */
     function __construct () {
-        $this->autoLoad()->startSession()->loadDB();
+        $this->autoLoad()->startSession()->initDB();
         require_once(ROUTES);
 
         if (router::$loadComplete === false) $this->return404();
@@ -47,7 +47,7 @@ class request {
         return $this;
     }
 
-    private function loadDB () {
+    private function initDB () {
         $GLOBALS['db'] = new \Libs\database(DB_CONFIG['drive'], DB_CONFIG['host'], DB_CONFIG['db'], DB_CONFIG['user'], DB_CONFIG['pass']);
         return $this;
     }

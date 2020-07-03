@@ -14,7 +14,7 @@ class router {
     private $variables = [];
     private $urlStatus = false;
     private static $listOfVars = [];
-    private static $pagePath = '/home';
+    private static $pagePath = 'home';
     public static $loadComplete = false;
 
     /**
@@ -48,15 +48,15 @@ class router {
         return $this;
     }
 
-
     /**
      * @param null $url
      * @param null $callback
      * @param string $type
+     * @param null $jumpFirst
      * @return router
      * getting all of the requests and sorting get, post request. ($_REQUEST['cont] can be used if there is no use for $_GET or $_POST).
      */
-    private static function request ($url=null, $callback=null, $type='get') {
+    private static function request ($url=null, $callback=null, $type='get', $jumpFirst=null) {
         if (self::$loadComplete === true) exit();
 
         if ($type === 'get')  {
@@ -70,6 +70,12 @@ class router {
         $router = new router($result, $variables);
 
         if (is_null($callback) && $result === true) {
+            self::$pagePath = explode('/', self::$pagePath);
+
+            if (!is_null($jumpFirst)) {
+                array_shift(self::$pagePath);
+            }
+
             self::loadController('get', self::$pagePath, $variables);
             return $router;
         }
@@ -89,8 +95,8 @@ class router {
      * testing if url matches and returning response.
      * it hse callBack function witch will get variables from url like -> /home/list/${variableName1}/${variableName2}
      */
-    public static function get ($url=null, $callback=null) {
-        return self::request($url, $callback);
+    public static function get ($url=null, $callback=null, $jumpFirst=null) {
+        return self::request($url, $callback, 'get', $jumpFirst);
     }
 
     /**
@@ -102,8 +108,8 @@ class router {
      * it hse callBack function witch will get variables from url like -> /home/list/${variableName1}/${variableName2}
      * and from post as well.
      */
-    public static function post ($url=null, $callback=null) {
-        return self::request($url, $callback, 'post');
+    public static function post ($url=null, $callback=null, $jumpFirst=null) {
+        return self::request($url, $callback, 'post', $jumpFirst);
     }
 
     /**

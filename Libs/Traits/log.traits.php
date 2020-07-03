@@ -51,7 +51,8 @@ trait log {
         file_put_contents(LOGS, file_get_contents(LOGS) . $message);
         if (ERRORS_PRINT) {
             require_once (ART);
-            die($message);
+            self::look($message);
+            die();
         }
     }
 
@@ -67,7 +68,9 @@ trait log {
             self::$logMethod = $fileInfo[0]['function'];
         }
 
-        self::$logLine = $fileInfo[1]['line'];
-        self::$logFile = $fileInfo[1]['file'];
+        $log = array_key_exists(1, $fileInfo) ? $fileInfo[1] : $fileInfo[0];
+
+        self::$logLine = @$log['line'];
+        self::$logFile = @$log['file'];
     }
 }

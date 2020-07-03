@@ -126,3 +126,1331 @@
 2020-06-22 01:12:39am. LINE : 25 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
 2020-06-22 01:12:47am. LINE : 31 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller was called but class dose't exits 
 2020-06-22 01:12:49am. LINE : 25 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-06-27 07:42:22am. LINE : 31 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller was called but class dose't exits 
+2020-06-27 07:52:45am. LINE : 31 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller was called but class dose't exits 
+2020-06-27 07:55:26am. LINE : 23 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-06-27 07:58:04am. LINE : 31 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller was called but class dose't exits 
+2020-06-27 07:59:35am. LINE : 31 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller was called but class dose't exits 
+2020-06-27 07:59:44am. LINE : 31 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller was called but class dose't exits 
+2020-06-27 08:00:02am. LINE : 33 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller was called but class dose't exits 
+2020-06-27 08:00:30am. LINE : 33 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller was called but class dose't exits 
+2020-06-27 08:02:26am. LINE : 33 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller was called but class dose't exits 
+2020-06-27 08:03:22am. LINE : 33 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller was called but class dose't exits 
+2020-06-27 08:03:32am. LINE : 33 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller was called but class dose't exits 
+2020-06-27 08:07:30am. LINE : 33 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller was called but class dose't exits 
+2020-06-27 08:07:42am. LINE : 33 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller was called but class dose't exits 
+2020-06-27 08:08:41am. LINE : 34 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller was called but class dose't exits 
+2020-06-27 08:08:51am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:09:16am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:09:38am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:09:51am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:10:11am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:10:47am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:11:09am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:11:21am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:12:05am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:12:06am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:12:07am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:12:47am. LINE : 26 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:13:06am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:13:07am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:13:08am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:13:29am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:13:30am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:13:31am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:13:31am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:14:01am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:14:03am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:14:03am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:14:15am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:14:29am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:15:32am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:15:32am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:15:48am. LINE : 25 D:\xampp\htdocs\ModernMVC\Controller\controller.php. METHOD:error --> modal dos't exists 
+2020-06-27 08:16:29am. LINE : 44 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> modal called but method dos't exists 
+2020-06-27 08:16:58am. LINE : 44 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> modal called but method dos't exists 
+2020-06-27 08:16:59am. LINE : 44 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> modal called but method dos't exists 
+2020-06-27 08:16:59am. LINE : 44 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> modal called but method dos't exists 
+2020-06-27 08:18:29am. LINE : 44 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> modal called but method dos't exists 
+2020-06-27 08:23:16am. LINE : 21 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-06-27 08:23:27am. LINE : 21 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-06-27 08:23:28am. LINE : 21 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-06-27 08:25:52am. LINE : 25 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-06-27 08:26:15am. LINE : 21 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-06-27 08:27:07am. LINE : 19 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-06-27 08:27:15am. LINE : 19 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-06-27 08:27:24am. LINE : 19 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-06-27 08:27:30am. LINE : 19 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-06-27 08:27:47am. LINE : 19 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-06-27 08:27:57am. LINE : 19 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-06-27 08:28:10am. LINE : 19 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-06-27 08:28:16am. LINE : 19 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-06-27 10:05:16am. LINE : 42 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> modal called but method dos't exists 
+2020-06-27 10:06:35am. LINE : 42 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> modal called but method dos't exists 
+2020-06-27 10:06:46am. LINE : 42 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> modal called but method dos't exists 
+2020-06-27 10:10:49am. LINE : 42 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> modal called but method dos't exists 
+2020-06-27 11:15:36am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:145
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(145): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(296): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs/ad...', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(9): Core\router::get('/admin/langs/ad...', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:16:15am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:145
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(145): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(296): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs/ad...', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(9): Core\router::get('/admin/langs/ad...', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:16:42am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:145
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(145): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(296): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs/ad...', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(9): Core\router::get('/admin/langs/ad...', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:17:39am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:145
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(145): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(296): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs/ad...', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(9): Core\router::get('/admin/langs/ad...', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:17:44am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:145
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(145): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(296): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs/ad...', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(9): Core\router::get('/admin/langs/ad...', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:20:16am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:145
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(145): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(296): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs/ad...', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(9): Core\router::get('/admin/langs/ad...', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:20:18am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:145
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(145): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(296): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs/ad...', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(9): Core\router::get('/admin/langs/ad...', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:20:29am. LINE : 16 D:\xampp\htdocs\ModernMVC\Libs\Traits\log.traits.php. METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:145
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(145): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(296): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs/ad...', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(9): Core\router::get('/admin/langs/ad...', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:20:32am. LINE : 16 D:\xampp\htdocs\ModernMVC\Libs\Traits\log.traits.php. METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:145
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(145): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(296): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs/ad...', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(9): Core\router::get('/admin/langs/ad...', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:20:59am. LINE : 16 D:\xampp\htdocs\ModernMVC\Libs\Traits\log.traits.php. METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:145
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(145): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(296): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs/ad...', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(9): Core\router::get('/admin/langs/ad...', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:21:24am. LINE : 16 D:\xampp\htdocs\ModernMVC\Libs\Traits\log.traits.php. METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:145
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(145): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(296): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs/ad...', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(9): Core\router::get('/admin/langs/ad...', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:21:26am. LINE : 16 D:\xampp\htdocs\ModernMVC\Libs\Traits\log.traits.php. METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:145
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(145): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(296): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs/ad...', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(9): Core\router::get('/admin/langs/ad...', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:21:26am. LINE : 16 D:\xampp\htdocs\ModernMVC\Libs\Traits\log.traits.php. METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:145
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(145): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(296): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs/ad...', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(9): Core\router::get('/admin/langs/ad...', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:21:34am. LINE : 16 D:\xampp\htdocs\ModernMVC\Libs\Traits\log.traits.php. METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:143
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(143): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(294): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs/ad...', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(9): Core\router::get('/admin/langs/ad...', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:21:57am. LINE : 16 D:\xampp\htdocs\ModernMVC\Libs\Traits\log.traits.php. METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:145
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(145): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(296): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs/ad...', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(9): Core\router::get('/admin/langs/ad...', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:22:55am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:145
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(145): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(296): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs/ad...', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(9): Core\router::get('/admin/langs/ad...', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:24:43am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:145
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(145): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(296): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs/ad...', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(9): Core\router::get('/admin/langs/ad...', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:24:44am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:145
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(145): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(296): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs/ad...', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(9): Core\router::get('/admin/langs/ad...', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:24:44am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:145
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(145): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(296): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs/ad...', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(9): Core\router::get('/admin/langs/ad...', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:25:48am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:145
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(145): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(296): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:29:37am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(284): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:30:01am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(284): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:30:14am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(284): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:30:34am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(284): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:31:20am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(284): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:35:10am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(284): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:35:23am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(284): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:35:41am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(284): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:36:04am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(284): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:36:14am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(284): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:36:49am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(285): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:37:04am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(285): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:38:34am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:39:25am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:40:28am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:40:42am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:40:55am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:41:01am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(285): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:41:03am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(285): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:41:09am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-27 11:41:13am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(67): Libs\Database->read('virtualvariable...', 'type', 1)
+#3 D:\xampp\htdocs\ModernMVC\Libs\virtualVariables.php(76): Libs\virtualVariables->getAll(1)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(29): Libs\virtualVariables->getAllJson(1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(25): Model\langsModel->get()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 10:15:40am. LINE :  . METHOD:error --> ParseError: syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in D:\xampp\htdocs\ModernMVC\Models\langsModel.php:40
+Stack trace:
+#0 [internal function]: Core\request->Core\{closure}('Model\\langsMode...')
+#1 [internal function]: spl_autoload_call('Model\\langsMode...')
+#2 D:\xampp\htdocs\ModernMVC\Controller\controller.php(29): class_exists('Model\\langsMode...')
+#3 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#5 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#7 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#8 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#9 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#10 {main} 
+2020-06-28 10:38:19am. LINE :  . METHOD:error --> Error: Call to a member function read() on null in D:\xampp\htdocs\ModernMVC\Models\langsModel.php:35
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(40): Model\langsModel->getLangList()
+#1 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(47): Model\langsModel->setInFile()
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(22): Model\langsModel->autoUpdate()
+#3 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#4 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-06-28 10:38:38am. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'T' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(35): Libs\Database->read('langs', 'status', 'T')
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(40): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(47): Model\langsModel->setInFile()
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(22): Model\langsModel->autoUpdate()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 10:39:03am. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'T' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(35): Libs\Database->read('langs', 'status', 'T')
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(40): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(47): Model\langsModel->setInFile()
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(22): Model\langsModel->autoUpdate()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 10:39:55am. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'T' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(36): Libs\Database->read('langs', 'status', 'T')
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(41): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(48): Model\langsModel->setInFile()
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(22): Model\langsModel->autoUpdate()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 10:40:03am. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'T' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(36): Libs\Database->read('langs', 'status', 'T')
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(41): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(48): Model\langsModel->setInFile()
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(22): Model\langsModel->autoUpdate()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 10:40:07am. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'T' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(36): Libs\Database->read('langs', 'status', 'T')
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(41): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(48): Model\langsModel->setInFile()
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(22): Model\langsModel->autoUpdate()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 10:40:43am. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'T' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(36): Libs\Database->read('langs', 'status', 'T')
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(41): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(48): Model\langsModel->setInFile()
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(22): Model\langsModel->autoUpdate()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 10:40:58am. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'T' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(36): Libs\Database->read('langs', 'status', 'T')
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(41): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(48): Model\langsModel->setInFile()
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(22): Model\langsModel->autoUpdate()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 10:40:59am. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'T' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(36): Libs\Database->read('langs', 'status', 'T')
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(41): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(48): Model\langsModel->setInFile()
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(22): Model\langsModel->autoUpdate()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 10:41:00am. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'T' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(36): Libs\Database->read('langs', 'status', 'T')
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(41): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(48): Model\langsModel->setInFile()
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(22): Model\langsModel->autoUpdate()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 10:41:00am. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'T' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(36): Libs\Database->read('langs', 'status', 'T')
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(41): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(48): Model\langsModel->setInFile()
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(22): Model\langsModel->autoUpdate()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 10:41:00am. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'T' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(36): Libs\Database->read('langs', 'status', 'T')
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(41): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(48): Model\langsModel->setInFile()
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(22): Model\langsModel->autoUpdate()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 10:41:52am. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'S' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(36): Libs\Database->read('langs', 'status', 'S')
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(41): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(48): Model\langsModel->setInFile()
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(22): Model\langsModel->autoUpdate()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 10:41:58am. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'S' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(36): Libs\Database->read('langs', 'status', 'S')
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(41): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(48): Model\langsModel->setInFile()
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(22): Model\langsModel->autoUpdate()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 10:42:16am. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'S' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(36): Libs\Database->read('langs', 'status', 'S')
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(41): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(48): Model\langsModel->setInFile()
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(22): Model\langsModel->autoUpdate()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 10:42:53am. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'S' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(36): Libs\Database->read('langs', 'status', 'S')
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(41): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(48): Model\langsModel->setInFile()
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(22): Model\langsModel->autoUpdate()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 10:43:16am. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'S' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(36): Libs\Database->read('langs', 'status', 'S')
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(41): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(48): Model\langsModel->setInFile()
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(22): Model\langsModel->autoUpdate()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 10:43:40am. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'S' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(36): Libs\Database->read('langs', 'status', 'S')
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(41): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(48): Model\langsModel->setInFile()
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(22): Model\langsModel->autoUpdate()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 10:43:55am. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'S' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(36): Libs\Database->read('langs', 'status', 'S')
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(41): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(48): Model\langsModel->setInFile()
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(22): Model\langsModel->autoUpdate()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 10:44:15am. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'S' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(36): Libs\Database->read('langs', 'status', 'S')
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(41): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(48): Model\langsModel->setInFile()
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(22): Model\langsModel->autoUpdate()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 10:49:11am. LINE :  . METHOD:error --> ParseError: syntax error, unexpected 'const' (T_CONST) in D:\xampp\htdocs\ModernMVC\Models\langsModel.php:36
+Stack trace:
+#0 [internal function]: Core\request->Core\{closure}('Model\\langsMode...')
+#1 [internal function]: spl_autoload_call('Model\\langsMode...')
+#2 D:\xampp\htdocs\ModernMVC\Controller\controller.php(29): class_exists('Model\\langsMode...')
+#3 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#5 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#7 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#8 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#9 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#10 {main} 
+2020-06-28 10:58:43am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(40): Libs\Database->read('langs', 'status', 1)
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(27): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#5 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#6 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#8 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#9 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#10 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#11 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#12 {main} 
+2020-06-28 10:59:15am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(41): Libs\Database->read('langs', 'status', 1)
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(27): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#5 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#6 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#8 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#9 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#10 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#11 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#12 {main} 
+2020-06-28 10:59:51am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(286): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(40): Libs\Database->read('langs', 'status', 1)
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(27): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#5 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#6 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#8 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#9 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#10 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#11 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#12 {main} 
+2020-06-28 11:00:16am. LINE :  . METHOD:error --> PDOException: could not find driver in D:\xampp\htdocs\ModernMVC\Libs\database.php:77
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(77): PDO->__construct('Array:host=loca...', NULL, NULL, Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(59): Libs\Database->__construct(Array, 'localhost', NULL, NULL, NULL)
+#2 D:\xampp\htdocs\ModernMVC\Libs\database.php(132): Libs\Database::__callStatic('look', Array)
+#3 D:\xampp\htdocs\ModernMVC\Libs\database.php(287): Libs\Database->query('SELECT * FROM `...', Array)
+#4 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(40): Libs\Database->read('langs', 'status', 1)
+#5 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(27): Model\langsModel->getLangList()
+#6 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#8 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#9 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#10 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#11 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#12 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#13 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#14 {main} 
+2020-06-28 11:00:32am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined in D:\xampp\htdocs\ModernMVC\Libs\database.php:133
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(133): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\database.php(287): Libs\Database->query('SELECT * FROM `...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(40): Libs\Database->read('langs', 'status', 1)
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(27): Model\langsModel->getLangList()
+#4 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#5 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#6 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#8 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#9 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#10 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#11 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#12 {main} 
+2020-06-28 11:05:59am. LINE :  . METHOD:error --> Error: Call to undefined method Libs\Database::fetchAll() in D:\xampp\htdocs\ModernMVC\Models\langsModel.php:40
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(47): Model\langsModel->getLangList()
+#1 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(27): Model\langsModel->setInFile()
+#2 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#3 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#5 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#7 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#8 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#9 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#10 {main} 
+2020-06-28 11:07:24am. LINE :  . METHOD:error --> fetched data is empty return -> false <- 
+2020-06-28 11:08:05am. LINE : 42 D:\xampp\htdocs\ModernMVC\Models\langsModel.php. METHOD:error --> fetched data is empty return -> false <- 
+2020-06-28 11:08:31am. LINE :  . METHOD:error --> Error: Class 'Libs\PDO' not found in D:\xampp\htdocs\ModernMVC\Libs\database.php:323
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(40): Libs\Database->all()
+#1 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(47): Model\langsModel->getLangList()
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(27): Model\langsModel->setInFile()
+#3 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#4 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-06-28 11:08:56am. LINE :  . METHOD:error --> Error: Class 'Libs\PDO' not found in D:\xampp\htdocs\ModernMVC\Libs\database.php:323
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(40): Libs\Database->all()
+#1 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(47): Model\langsModel->getLangList()
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(27): Model\langsModel->setInFile()
+#3 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#4 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-06-28 11:09:44am. LINE :  . METHOD:error --> Error: Class 'Libs\PDO' not found in D:\xampp\htdocs\ModernMVC\Libs\database.php:323
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(40): Libs\Database->all()
+#1 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(47): Model\langsModel->getLangList()
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(27): Model\langsModel->setInFile()
+#3 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#4 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-06-28 11:20:01am. LINE : 42 D:\xampp\htdocs\ModernMVC\Models\langsModel.php. METHOD:error --> fetched data is empty return -> false <- 
+2020-06-28 11:30:11am. LINE : 38 D:\xampp\htdocs\ModernMVC\Models\langsModel.php. METHOD:error --> fetched content is empty 
+2020-06-28 11:31:29am. LINE : 38 D:\xampp\htdocs\ModernMVC\Models\langsModel.php. METHOD:error --> fetched content is empty 
+2020-06-28 11:34:35am. LINE : 38 D:\xampp\htdocs\ModernMVC\Models\langsModel.php. METHOD:error --> fetched content is empty 
+2020-06-28 11:36:12am. LINE :  . METHOD:error --> Error: Call to undefined method Libs\Database::getAll() in D:\xampp\htdocs\ModernMVC\Models\langsModel.php:36
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(55): Model\langsModel->getLang()
+#1 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(27): Model\langsModel->setInFile()
+#2 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#3 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#5 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#7 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#8 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#9 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#10 {main} 
+2020-06-28 11:36:22am. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY000]: General error: Invalid class name (should be a string) in D:\xampp\htdocs\ModernMVC\Libs\database.php:323
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(323): PDOStatement->fetchAll(8, true)
+#1 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(36): Libs\Database->all(true)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(55): Model\langsModel->getLang()
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(27): Model\langsModel->setInFile()
+#4 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#5 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#6 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#8 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#9 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#10 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#11 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#12 {main} 
+2020-06-28 11:46:31am. LINE :  . METHOD:error --> ArgumentCountError: Too few arguments to function Model\langsModel::Model\{closure}(), 1 passed and exactly 2 expected in D:\xampp\htdocs\ModernMVC\Models\langsModel.php:52
+Stack trace:
+#0 [internal function]: Model\langsModel->Model\{closure}(Array)
+#1 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(54): array_map(Object(Closure), Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(27): Model\langsModel->setInFile()
+#3 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#4 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-06-28 11:46:34am. LINE :  . METHOD:error --> ArgumentCountError: Too few arguments to function Model\langsModel::Model\{closure}(), 1 passed and exactly 2 expected in D:\xampp\htdocs\ModernMVC\Models\langsModel.php:52
+Stack trace:
+#0 [internal function]: Model\langsModel->Model\{closure}(Array)
+#1 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(54): array_map(Object(Closure), Array)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(27): Model\langsModel->setInFile()
+#3 D:\xampp\htdocs\ModernMVC\Controller\controller.php(30): Model\langsModel->__construct()
+#4 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-06-29 06:20:50pm. LINE :  . METHOD:error --> ArgumentCountError: Too few arguments to function Controller\controller::__call(), 0 passed in D:\xampp\htdocs\ModernMVC\Controller\controller.php on line 37 and exactly 2 expected in D:\xampp\htdocs\ModernMVC\Controller\controller.php:40
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Controller\controller.php(37): Controller\controller->__call()
+#1 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#2 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(30): Controller\langs->__construct()
+#3 D:\xampp\htdocs\ModernMVC\Core\router.php(79): Core\router::loadController('get', Array, Array)
+#4 D:\xampp\htdocs\ModernMVC\Core\router.php(99): Core\router::request('/admin/langs', NULL, 'get', true)
+#5 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#6 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#8 {main} 

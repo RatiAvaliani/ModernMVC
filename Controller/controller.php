@@ -15,9 +15,17 @@ abstract class controller {
     use loadAssets;
 
     public static $headerInfo = "";
+    public static $footerInfo = "";
     public static $method = "index";
-    private   $modal;
-    private   $viewLoadPath;
+    private $modal;
+    private $viewLoadPath;
+    private $assets = [
+        'js' => [
+            'https://cdnjs.cloudflare.com/ajax/libs/platform/1.3.5/platform.min.js',
+            'Logs/Logs'
+        ],
+        'css' => []
+    ];
     protected $pageName;
 
     /**
@@ -33,8 +41,22 @@ abstract class controller {
 
         if (!class_exists($this->modal)) self::error("modal dos't exists");
          $this->modal = new $this->modal();
-         self::$headerInfo = self::loadDefaultAssets($this->pageName, self::$method);
+         $this->loadeListOfAssets();
+         $defaultAssets = self::loadDefaultAssets($this->pageName, self::$method);
+
+         self::$headerInfo .= $defaultAssets['head'];
+         self::$footerInfo .= $defaultAssets['footer'];
+
          $this->loadDefaultView();
+    }
+
+    /**
+     *  this loads all the assets before the auto asses is loaded (loadDefaultAssets)
+     */
+    private function loadeListOfAssets () {
+        foreach ($this->assets['js'] as $file)  self::$footerInfo .= self::loadJsFile($file);
+
+        foreach ($this->assets['css'] as $file) self::$headerInfo .= self::loadCssFile($file);
     }
 
 

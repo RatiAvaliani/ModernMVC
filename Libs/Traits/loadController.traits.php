@@ -44,6 +44,11 @@ trait loadController {
         call_user_func([self::$classInstance, self::$method], $paremeters);
     }
 
+    /**
+     * @param null $fileName
+     * @param null $folderName
+     * Loafing default views
+     */
     private static function loadView ($fileName=null, $folderName=null) {
         if (is_null($fileName) || is_null($folderName)) self::error('file name or folder name empty');
         self::render(VIEW_PATH . $folderName . DS . $fileName . '.php');

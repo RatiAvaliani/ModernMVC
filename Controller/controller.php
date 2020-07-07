@@ -21,8 +21,8 @@ abstract class controller {
     private $viewLoadPath;
     private $assets = [
         'js' => [
-            'https://cdnjs.cloudflare.com/ajax/libs/platform/1.3.5/platform.min.js',
-            'Logs/Logs'
+            'https://code.jquery.com/jquery-3.5.1.min.js',
+            'Modules/Modules'
         ],
         'css' => []
     ];

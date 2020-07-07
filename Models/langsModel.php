@@ -18,7 +18,7 @@ class langsModel extends Model {
         'deactivate' => 0
     ];
 
-    private static $langFileName =  'lang.json';
+    private static $langFileName =  'lang.js';
 
     public function __construct () {
         self::$db = $GLOBALS['db'];
@@ -34,7 +34,7 @@ class langsModel extends Model {
     }
 
     public function getLang () {
-        $cont = $this->virtualVariables->getAll(VIRTUAL_VARIABLES_TYPE['lang'])->column('lang');
+        $cont = $this->virtualVariables->getAll(VIRTUAL_VARIABLES_TYPE['lang'])->all(false);
 
         if (empty($cont)) self::error('fetched content is empty');
         return $cont;
@@ -51,11 +51,9 @@ class langsModel extends Model {
         $this->getLangList();
         $retCont = [];
         foreach ($this->getLang() as $key => $cont) {
-            if (array_key_exists($key, $this->langsList)) {
-                $retCont[$this->langsList[$key]['lang_title']] = $cont;
-            }
+            $retCont[$this->langsList[$cont['lang']]['lang_title']][] = $cont;
         }
-        file_put_contents(LANG_LOAD_FILE . self::$langFileName, json_encode($retCont));
+        file_put_contents(LANG_LOAD_FILE . self::$langFileName, "export default " . json_encode($retCont) . " ");
     }
 
     public function autoUpdate () {

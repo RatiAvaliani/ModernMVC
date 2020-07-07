@@ -1,1 +1,1 @@
-{"ka":{"id":"1","type":"1","lang":"1","name":"menu","content":"\u10db\u10d4\u10dc\u10e3","status":"1"},"en":{"id":"2","type":"1","lang":"2","name":"menu","content":"menu","status":"1"}}
+export langs { {"ka":[{"id":"1","type":"1","lang":"1","name":"menu","content":"\u10db\u10d4\u10dc\u10e3","status":"1"},{"id":"3","type":"1","lang":"1","name":"menus","content":"\u10db\u10d4\u10dc\u10e3s","status":"1"}],"en":[{"id":"2","type":"1","lang":"2","name":"menu","content":"menu","status":"1"},{"id":"4","type":"1","lang":"2","name":"menua","content":"menua","status":"1"}]} }

@@ -60,9 +60,13 @@ class router {
         if (self::$loadComplete === true) exit();
 
         if ($type === 'get')  {
-            $requestContent = array_key_exists('cont', $_GET) ? $_GET['cont'] : self::error('install .htaccess file.');
+            $requestContent = array_key_exists('cont', $_GET)    ? $_GET['cont']    : self::error('install .htaccess file.');
         } else if ($type === 'post') {
-            $requestContent = array_key_exists('cont', $_POST) ? $_POST['cont'] : self::error('install .htaccess file.');
+            $requestContent = array_key_exists('cont', $_POST)   ? $_POST['cont']   : self::error('install .htaccess file.');
+        }  else if ($type === 'put') {
+            $requestContent = array_key_exists('cont', $_PUT)    ? $_PUT['cont']    : self::error('install .htaccess file.');
+        } else if ($type === 'delete') {
+            $requestContent = array_key_exists('cont', $_DELETE) ? $_DELETE['cont'] : self::error('install .htaccess file.');
         }
 
         $result = self::compareRequest($requestContent, $url);
@@ -80,7 +84,7 @@ class router {
             return $router;
         }
 
-        if ($_GET['cont'] === "" && ($url === "" || $url === "/" ) || $result === true) {
+        if ($_REQUEST['cont'] === "" && ($url === "" || $url === "/" ) || $result === true) {
             $callback($variables);
         }
 
@@ -110,6 +114,14 @@ class router {
      */
     public static function post ($url=null, $callback=null, $jumpFirst=null) {
         return self::request($url, $callback, 'post', $jumpFirst);
+    }
+
+    public static function put ($url=null, $callback=null, $jumpFirst=null) {
+        return self::request($url, $callback, 'put', $jumpFirst);
+    }
+
+    public static function delete ($url=null, $callback=null, $jumpFirst=null) {
+        return self::request($url, $callback, 'delete', $jumpFirst);
     }
 
     /**

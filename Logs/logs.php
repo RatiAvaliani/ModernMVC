@@ -1454,3 +1454,70 @@ Stack trace:
 #6 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
 #7 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
 #8 {main} 
+2020-07-04 05:39:58pm. LINE :  . METHOD:error --> Error: Call to undefined method Libs\Database::fach() in D:\xampp\htdocs\ModernMVC\Models\langsModel.php:37
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(53): Model\langsModel->getLang()
+#1 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(27): Model\langsModel->setInFile()
+#2 D:\xampp\htdocs\ModernMVC\Controller\controller.php(43): Model\langsModel->__construct()
+#3 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(31): Controller\langs->__construct()
+#5 D:\xampp\htdocs\ModernMVC\Core\router.php(83): Core\router::loadController('get', Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(103): Core\router::request('/admin/langs', NULL, 'get', true)
+#7 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#8 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#9 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#10 {main} 
+2020-07-04 05:41:36pm. LINE :  . METHOD:error --> ParseError: syntax error, unexpected ';', expecting ')' in D:\xampp\htdocs\ModernMVC\Models\langsModel.php:53
+Stack trace:
+#0 [internal function]: Core\request->Core\{closure}('Model\\langsMode...')
+#1 [internal function]: spl_autoload_call('Model\\langsMode...')
+#2 D:\xampp\htdocs\ModernMVC\Controller\controller.php(42): class_exists('Model\\langsMode...')
+#3 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(31): Controller\langs->__construct()
+#5 D:\xampp\htdocs\ModernMVC\Core\router.php(83): Core\router::loadController('get', Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(103): Core\router::request('/admin/langs', NULL, 'get', true)
+#7 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#8 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#9 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#10 {main} 
+2020-07-04 05:42:20pm. LINE :  . METHOD:error --> Error: Call to a member function column() on array in D:\xampp\htdocs\ModernMVC\Models\langsModel.php:37
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(53): Model\langsModel->getLang()
+#1 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(27): Model\langsModel->setInFile()
+#2 D:\xampp\htdocs\ModernMVC\Controller\controller.php(43): Model\langsModel->__construct()
+#3 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(31): Controller\langs->__construct()
+#5 D:\xampp\htdocs\ModernMVC\Core\router.php(83): Core\router::loadController('get', Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(103): Core\router::request('/admin/langs', NULL, 'get', true)
+#7 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#8 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#9 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#10 {main} 
+2020-07-04 05:42:45pm. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY000]: General error: Invalid class name (should be a string) in D:\xampp\htdocs\ModernMVC\Libs\database.php:328
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(328): PDOStatement->fetchAll(8, true)
+#1 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(37): Libs\Database->all(true)
+#2 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(53): Model\langsModel->getLang()
+#3 D:\xampp\htdocs\ModernMVC\Models\langsModel.php(27): Model\langsModel->setInFile()
+#4 D:\xampp\htdocs\ModernMVC\Controller\controller.php(43): Model\langsModel->__construct()
+#5 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#6 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(31): Controller\langs->__construct()
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(83): Core\router::loadController('get', Array, Array)
+#8 D:\xampp\htdocs\ModernMVC\Core\router.php(103): Core\router::request('/admin/langs', NULL, 'get', true)
+#9 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#10 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#11 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#12 {main} 
+2020-07-04 05:47:37pm. LINE :  . METHOD:error --> ParseError: syntax error, unexpected ';', expecting ')' in D:\xampp\htdocs\ModernMVC\Models\langsModel.php:53
+Stack trace:
+#0 [internal function]: Core\request->Core\{closure}('Model\\langsMode...')
+#1 [internal function]: spl_autoload_call('Model\\langsMode...')
+#2 D:\xampp\htdocs\ModernMVC\Controller\controller.php(42): class_exists('Model\\langsMode...')
+#3 D:\xampp\htdocs\ModernMVC\Controller\langs.controller.php(14): Controller\controller->__construct()
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(31): Controller\langs->__construct()
+#5 D:\xampp\htdocs\ModernMVC\Core\router.php(83): Core\router::loadController('get', Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(103): Core\router::request('/admin/langs', NULL, 'get', true)
+#7 D:\xampp\htdocs\ModernMVC\Core\routes.php(8): Core\router::get('/admin/langs', NULL, true)
+#8 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#9 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#10 {main} 

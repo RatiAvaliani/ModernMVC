@@ -169,8 +169,11 @@ class Database {
 
     static protected function _params ( $data, $operator = '=', $glue = ', ' ) {
         $params = is_string( $data) ? array( $data ) : array_keys( (array) $data );
-        foreach ( $params as &$param )
+
+        foreach ( $params as &$param ) {
             $param = implode( ' ', array( self::_escape( $param ), $operator, ':' . $param ) );
+        }
+
         return implode( $glue, $params );
     }
 

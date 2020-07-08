@@ -25,10 +25,10 @@ class request {
      * getting routes.
      */
     function __construct () {
-        $this->autoLoad()->startSession()->initDB()->setPut()->setDelete();
+        $this->autoLoad()->startSession()->initDB();
         require_once(ROUTES);
 
-        if (router::$loadComplete === false) $this->return404();
+        if (router::$urlStatus === false) $this->return404();
     }
 
     /**
@@ -47,40 +47,41 @@ class request {
         return $this;
     }
 
-    /**
+    /*/**
      * @return $this
      *  set PUT HTTP/HTTPS request as a variable
-     */
+
     private function setPut () {
         $this->addingRequestTypes('_PUT');
 
         return $this;
     }
 
-    /**
+
      * @return $this
      *  set DELETE HTTP/HTTPS request as a variable
-     */
+
     private function setDelete () {
         $this->addingRequestTypes('_DELETE');
+        $this->addingRequestTypes('_POST');
 
         return $this;
     }
 
-    /**
+
      * @param null $requestType
      * @return null
      * This function is used only to add PUT and DELETE request types (and adding new types witch are not in HTTP/HTTPS request needs to stay out)
-     */
+
     protected function addingRequestTypes ($requestType=null) {
         if (is_null($requestType)) return null;
 
         $$requestType = [];
 
         if ($_SERVER['REQUEST_METHOD'] === str_replace('_', '', $requestType)) {
-            parse_str(file_get_contents('php://input', false, null, -1, $_SERVER['CONTENT_LENGTH']), $$requestType);
+            $$requestType = $_REQUEST;
         }
-    }
+    }*/
 
     /**
      * @return $this

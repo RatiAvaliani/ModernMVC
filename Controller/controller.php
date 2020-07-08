@@ -17,22 +17,25 @@ abstract class controller {
     public static $headerInfo = "";
     public static $footerInfo = "";
     public static $method = "index";
-    private $modal;
     private $viewLoadPath;
     private $assets = [
         'js' => [
             'https://code.jquery.com/jquery-3.5.1.min.js',
+            'https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js',
+            'https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js',
             'Modules/Modules'
         ],
         'css' => []
     ];
     protected $pageName;
 
+    public $modal;
+
     /**
      * controller constructor.
      * gets modal and crates a new instance of it, saves the instance in $this->modal.
      */
-    public function __construct ($method=null) {
+    public function __construct () {
         set_exception_handler(array(__CLASS__, 'error'));
 
         $this->pageName = str_replace('Controller\\', '' , get_called_class());
@@ -64,6 +67,8 @@ abstract class controller {
      *  loads default view like -> (/modalName/modalName.php)
      */
     protected function loadDefaultView () {
+        if ($_SERVER['REQUEST_METHOD'] !== "GET") return; // if the request is't get header, content and footer will not load. (it will assume the request is for api only)
+
         self::render(DEFAULT_VIEWS['head']);
         self::render($this->viewLoadPath . DS . $this->pageName . '.php');
         self::render(DEFAULT_VIEWS['footer']);

@@ -25,7 +25,7 @@ define('DB_CONFIG', array(
 //Folders
 define('PUBLIC_PATH', getcwd() . DS);
 define('LOGS_PATH', ROOT . 'Modules' . DS);
-define('LOGS', ROOT . 'Modules' . DS . 'logs.php');
+define('LOGS', ROOT . 'Logs' . DS . 'logs.php');
 define('LIBS_PATH', ROOT . 'Libs' . DS);
 define('CONTROLLER_PATH', ROOT . 'Controller' . DS);
 define('MODEL_PATH', ROOT . 'Models' . DS);

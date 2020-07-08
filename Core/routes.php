@@ -2,8 +2,13 @@
 use Core\router;
 
 router::get('/')->view('index');
-router::get('/settings/admin', function () {
+router::get('/settings/adminController', function () {
     var_dump('welcome to settings.');
 });
-router::get('/admin/langs', null,true);
-router::get('/admin/langs/add', null,true);
+router::get('/admin/langs')->jump();
+router::get('/admin/langs/add')->jump();
+
+router::get('/admin');
+
+router::get('/admin/login');
+router::post('/admin/login');

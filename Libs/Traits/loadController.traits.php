@@ -17,21 +17,26 @@ trait loadController {
      */
     public static function loadController ($type='get', $path=array('home'), $paremeters=array()) {
         $controller = array_key_exists(0, $path) ? $path[0] : self::error('controller name is empty');
-        $defaultMethod = $type === 'post' ? 'indexPost' : 'index';
+        $defaultMethod = $type === 'get' ? 'index' : "index" . ucfirst($type);
 
         self::$method = array_key_exists(1, $path) ? $path[1] : $defaultMethod;
+
+        self::$method = $type === 'get' ? self::$method : self::$method . ucfirst($type);
 
         if (empty($path)) return self::error('path is empty for controller');
 
         $className = '\Controller\\' . str_replace('/', '', $controller);
+
         \Controller\controller::$method = self::$method;
 
         if (!class_exists($className)) self::error("controller was called but class dose't exits");
 
         self::$classInstance = new $className();
         self::$classInstance->passedParameters = $paremeters;
+        $passedParameters = $_REQUEST;
+        array_shift($passedParameters);
 
-        self::loadMethod ($paremeters);
+        self::loadMethod ($passedParameters, $paremeters);
         self::loadView(self::$method, $controller);
         exit();
     }

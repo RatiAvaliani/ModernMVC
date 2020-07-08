@@ -15,7 +15,7 @@ export default class Vea {
     */
     appendToElement     = null;
 
-    static defaultIndex = "vea_index_";
+    static defaultIndex = "default_vea_index";
 
     /*
     * This method tests if the element witch we add other elements to is set
@@ -88,6 +88,14 @@ export default class Vea {
     }
 
     /*
+    *
+    */
+    reset () {
+        this.appendToElement.find(`.${Vea.defaultIndex}`).remove();
+        return this;
+    }
+
+    /*
     * Adding enter to list of methods will run the init iterator and add the content(html) to main element
     */
     enter () {
@@ -103,6 +111,11 @@ export default class Vea {
         this.appendToElement.append(`${html}`);
     }
 
+    endElement () {
+        this.virtualElements[this.currentElementIndex]['child'] = false;
+
+        return this;
+    }
 
     appendArray (listOfElements=null) {
          if (listOfElements === null) throw new Error('Passed element list is empty or not a object.');
@@ -147,7 +160,7 @@ export default class Vea {
 
         startElement = startElement.slice(0, startElement.length-1);
 
-        this.virtualElements[this.currentElementIndex]['start'] = `${startElement} class="${className}">`;
+        this.virtualElements[this.currentElementIndex]['start'] = `${startElement} class="${className} ${Vea.defaultIndex}">`;
         return this;
     }
 

@@ -12,24 +12,30 @@ class router {
     use render;
 
     private $variables = [];
-    private $urlStatus = false;
+    private $requestType = "get";
     private static $listOfVars = [];
     private static $pagePath = 'home';
+    public static $urlStatus = false;
     public static $loadComplete = false;
 
-    /**
-     * router constructor.
-     * @param bool $urlStatus
-     * @param array $variables
-     * getting urlStatus this will be true or false depending if the request url and get or post url matches
-     */
-    public function __construct ($urlStatus=false, $variables=[]) {
-        $this->variables = $variables;
-        $this->urlStatus = $urlStatus;
+    /**/
+    public function __construct ($url=null, $callback=null, $type) {
+        $requestContent = array_key_exists('cont', $_REQUEST) ? $_REQUEST['cont'] : self::error('install .htaccess file.');
+
+        self::$urlStatus = self::compareRequest($requestContent, $url, $type);
+        $this->variables =  self::getUrlVariables();
+        $this->requestType = $type;
+
+        if (!is_null($callback) && self::$urlStatus === true) {
+            $callback();
+            self::$loadComplete = false;
+        } else if (self::$urlStatus === true) {
+            self::$pagePath = explode('/', self::$pagePath);
+        }
     }
 
     public function __destruct() {
-        // TODO: Implement __destruct() method.
+        if (self::$loadComplete === true) self::loadController($this->requestType, self::$pagePath, $this->variables);
     }
 
     /**
@@ -48,47 +54,37 @@ class router {
         return $this;
     }
 
+    public static function sessionFilter ($listOfSessions=[]) {
+        if (empty($listOfSessions)) self::error('passed id or content is empty.');
+
+        $status = true;
+
+        foreach ($listOfSessions as $key => $value) {
+            $sessionContent = self::getSession($key);
+            if ($sessionContent !== $value) $status = false;
+        }
+
+        return $status;
+    }
+
+    public function jump () {
+        if (self::$urlStatus === true) array_shift(self::$pagePath);
+
+        return $this;
+    }
+
     /**
      * @param null $url
      * @param null $callback
      * @param string $type
-     * @param null $jumpFirst
      * @return router
-     * getting all of the requests and sorting get, post request. ($_REQUEST['cont] can be used if there is no use for $_GET or $_POST).
+     * getting all of the requests and sorting get, post request.
      */
-    private static function request ($url=null, $callback=null, $type='get', $jumpFirst=null) {
-        if (self::$loadComplete === true) exit();
+    private static function request ($url=null, $callback=null, $type='get') {
+        if (self::$urlStatus === true) exit();
+        if (is_null($url)) self::error('Passed url is empty');
 
-        if ($type === 'get')  {
-            $requestContent = array_key_exists('cont', $_GET)    ? $_GET['cont']    : self::error('install .htaccess file.');
-        } else if ($type === 'post') {
-            $requestContent = array_key_exists('cont', $_POST)   ? $_POST['cont']   : self::error('install .htaccess file.');
-        }  else if ($type === 'put') {
-            $requestContent = array_key_exists('cont', $_PUT)    ? $_PUT['cont']    : self::error('install .htaccess file.');
-        } else if ($type === 'delete') {
-            $requestContent = array_key_exists('cont', $_DELETE) ? $_DELETE['cont'] : self::error('install .htaccess file.');
-        }
-
-        $result = self::compareRequest($requestContent, $url);
-        $variables = self::getUrlVariables();
-        $router = new router($result, $variables);
-
-        if (is_null($callback) && $result === true) {
-            self::$pagePath = explode('/', self::$pagePath);
-
-            if (!is_null($jumpFirst)) {
-                array_shift(self::$pagePath);
-            }
-
-            self::loadController('get', self::$pagePath, $variables);
-            return $router;
-        }
-
-        if ($_REQUEST['cont'] === "" && ($url === "" || $url === "/" ) || $result === true) {
-            $callback($variables);
-        }
-
-        return $router;
+        return new router($url, $callback, $type);
     }
 
     /**
@@ -99,8 +95,8 @@ class router {
      * testing if url matches and returning response.
      * it hse callBack function witch will get variables from url like -> /home/list/${variableName1}/${variableName2}
      */
-    public static function get ($url=null, $callback=null, $jumpFirst=null) {
-        return self::request($url, $callback, 'get', $jumpFirst);
+    public static function get ($url=null, $callback=null, $jumpFirst=null, $redirect='') {
+        return self::request($url, $callback, 'get', $jumpFirst, $redirect);
     }
 
     /**
@@ -112,16 +108,16 @@ class router {
      * it hse callBack function witch will get variables from url like -> /home/list/${variableName1}/${variableName2}
      * and from post as well.
      */
-    public static function post ($url=null, $callback=null, $jumpFirst=null) {
-        return self::request($url, $callback, 'post', $jumpFirst);
+    public static function post ($url=null, $callback=null, $jumpFirst=null, $redirect='') {
+        return self::request($url, $callback, 'post', $jumpFirst, $redirect);
     }
 
-    public static function put ($url=null, $callback=null, $jumpFirst=null) {
-        return self::request($url, $callback, 'put', $jumpFirst);
+    public static function put ($url=null, $callback=null, $jumpFirst=null, $redirect='') {
+        return self::request($url, $callback, 'put', $jumpFirst, $redirect);
     }
 
-    public static function delete ($url=null, $callback=null, $jumpFirst=null) {
-        return self::request($url, $callback, 'delete', $jumpFirst);
+    public static function delete ($url=null, $callback=null, $jumpFirst=null, $redirect='') {
+        return self::request($url, $callback, 'delete', $jumpFirst, $redirect);
     }
 
     /**
@@ -158,12 +154,13 @@ class router {
      * @return bool|null
      * compering real url with was passed from get or post methods.
      */
-    protected static function compareRequest ($request=null, $url=null) {
+    protected static function compareRequest ($request=null, $url=null, $type="get") {
         if (is_null($request) && is_null($url)) return null;
 
-        if ($request === "" && $url === "/" || '/'.$request === self::$pagePath) {
-            return true;
-        }
+        if ($request === "" && $url === "/" || '/'.$request === self::$pagePath) return true;
+
+
+        if (strtolower($_SERVER['REQUEST_METHOD']) !== $type) return false;
 
         $realUrl = self::setUrlPath($url, $request);
         $realUrlVariableCount = preg_match_all("/([\/][$]{(\w+)})/", $url);

@@ -28,4 +28,11 @@ trait render {
 
         header("Location: ${url}");
     }
+
+    public static function renderJson ($content=null) {
+        if (is_null($content)) self::error('passed content is null');
+
+        echo json_encode($content);
+        return;
+    }
 }

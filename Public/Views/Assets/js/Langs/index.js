@@ -7,6 +7,7 @@ class langs {
         "changeLang"     : "change_lang",
         "dataLangType"   : "data-lang-type",
         "dataLangId"     : "data-lang-id",
+        "dataLangIndex"  : "data-lang-index",
         "langsList"      : "langs_list",
         "editButton"     : "edit-button",
         "removeButton"   : "remove-button",
@@ -25,19 +26,15 @@ class langs {
     ];
 
     constructor () {
+        (async() => {
+             await this.setTablas();
+             this.loadBootstrap();
+             this.loadActions();
+        })();
+    }
+
+    loadBootstrap () {
         $(`.${langs.tags.bootstrapModal}`).load('/ModernMVC/Public/Views/default/bootstrapModal.html');
-
-        this.getCurrentLangType();
-
-        let langName = this.langNameIterator();
-        let langContent = langName.next();
-
-        while (langContent['done'] !== true) {
-            langContent['promise'].then((langName) => {
-                this.loadeTabs(langName);
-            });
-            langContent = langName.next();
-        }
     }
 
     getCurrentLangType () {
@@ -55,16 +52,37 @@ class langs {
         return langsList[this.currentLang][langName];
     }
 
-    loadeActions () {
-        $(`.${langs.tags.editButton}`).click(function () {
-            $('.modal-title').text('edit');
-            (new Vea()).select('.modal-body').append('input').enter();
-            $(`#${langs.tags.modal}`).click();
+    loadActions () {
+        $(`.${langs.tags.editButton}`).on('click', ev => {
+            let _this = $(ev.currentTarget);
+
+            this.editAction(
+                _this.attr(langs.tags.dataLangType),
+                _this.attr(langs.tags.dataLangId),
+                _this.attr(langs.tags.dataLangIndex)
+            );
         });
 
         $(`.${langs.tags.removeButton}`).click(function () {});
+    }
 
-        return this;
+    editAction (langType=null, langId=null, langsIndex=null) {
+
+        var inputElements = (new Vea()).select('.modal-body');
+        $('.modal-title').text('edit');
+        (new Vea()).select('.modal-body').reset();
+
+        for (let input of this.exportOrder) {
+            let savedContent = langsList[langType][langId][input];
+            if (savedContent === undefined) continue;
+
+            (new Vea()).select('.modal-body').append('div').addClass('input-group mb-3')
+            .append('div').addClass('input-group-prepend')
+            .append('span').addClass('input-group-text').addAttr('id', 'inputGroup-sizing-default').text(input).endElement()
+            .append('input').addClass('form-control').addAttr('value', savedContent).addAttr('type', 'text').addAttr('aria-label', 'Default').addAttr('aria-describedby', 'inputGroup-sizing-default').enter();
+        }
+
+        $(`#${langs.tags.modal}`).click();
     }
 
     selectActiveLang () {
@@ -79,18 +97,28 @@ class langs {
         return this;
     }
 
+    setTablas () {
+        this.getCurrentLangType();
+
+        let langName = this.langNameIterator();
+        let langContent = langName.next();
+
+        while (langContent['done'] !== true) {
+            langContent['promise'].then((langName) => {
+                this.loadeTabs(langName);
+        });
+            langContent = langName.next();
+        }
+        return true;
+    }
+
     loadeTabs (langName=null) {
         if (langName === null) return;
 
         (new Vea())
             .select('.nav-tabs')
-            .append('li')
-            .addClass('nav-item')
-            .append('a')
-            .addClass(`nav-link ${langs.tags.changeLang}`)
-            .addAttr('href', '#')
-            .addAttr(langs.tags.dataLangType, langName)
-            .text(langName)
+            .append('li').addClass('nav-item')
+            .append('a').addClass(`nav-link ${langs.tags.changeLang}`).addAttr('href', '#').addAttr(langs.tags.dataLangType, langName).text(langName)
             .enter();
 
         let activeLangType = $('.nav-item:nth-child(1)').find('a').addClass('active').attr(langs.tags.dataLangType);
@@ -101,27 +129,30 @@ class langs {
             .addClass(`${langs.tags.langsList} ${activeLangType.trim() !== langName.trim() ? "d-none" : ""}` )
             .addAttr(langs.tags.dataLangType, langName);
 
+        let i = 0;
         for (let cont of langsList[langName]) {
             tbody = tbody.append('tr');
             for (let expOrder of this.exportOrder) {
                 if (cont[expOrder] === undefined) {
                     tbody.append('th')
                         .append('button')
-                        .addAttr('type', 'button')
-                        .addClass(`btn ${expOrder === "edit" ? `btn-info ${langs.tags.editButton}` : `btn-danger ${langs.tags.removeButton}` }`)
-                        .addAttr(langs.tags.dataLangType, langName)
-                        .addAttr(langs.tags.dataLangId, cont['id'])
-                        .text(expOrder);
+                            .addAttr('type', 'button')
+                            .addClass(`btn ${expOrder === "edit" ? `btn-info ${langs.tags.editButton}` : `btn-danger ${langs.tags.removeButton}` }`)
+                            .addAttr(langs.tags.dataLangType, langName)
+                            .addAttr(langs.tags.dataLangId, cont['id'])
+                            .addAttr(langs.tags.dataLangIndex, i.toString())
+                            .text(expOrder);
                 } else if (expOrder === 'lang') {
                     tbody.append('th').text(langName);
                 } else {
                     tbody.append('th').text(cont[expOrder]);
                 }
             }
+            i++;
         }
 
         tbody.enter();
-        this.selectActiveLang().loadeActions();
+        this.selectActiveLang();
 
         return true;
     }

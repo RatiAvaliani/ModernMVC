@@ -1521,3 +1521,350 @@ Stack trace:
 #8 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
 #9 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
 #10 {main} 
+2020-07-08 12:20:23pm. LINE :  . METHOD:error --> ParseError: syntax error, unexpected end of file in D:\xampp\htdocs\ModernMVC\Public\Views\admin\login.php:7
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(55): Core\router::render('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(36): Core\router::loadView('login', 'admin')
+#2 D:\xampp\htdocs\ModernMVC\Core\router.php(83): Core\router::loadController('get', Array, Array)
+#3 D:\xampp\htdocs\ModernMVC\Core\router.php(103): Core\router::request('/admin/login', NULL, 'get', NULL)
+#4 D:\xampp\htdocs\ModernMVC\Core\routes.php(12): Core\router::get('/admin/login')
+#5 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#7 {main} 
+2020-07-08 12:20:34pm. LINE :  . METHOD:error --> ParseError: syntax error, unexpected end of file in D:\xampp\htdocs\ModernMVC\Public\Views\admin\login.php:7
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(55): Core\router::render('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(36): Core\router::loadView('login', 'admin')
+#2 D:\xampp\htdocs\ModernMVC\Core\router.php(83): Core\router::loadController('get', Array, Array)
+#3 D:\xampp\htdocs\ModernMVC\Core\router.php(103): Core\router::request('/admin/login', NULL, 'get', NULL)
+#4 D:\xampp\htdocs\ModernMVC\Core\routes.php(12): Core\router::get('/admin/login')
+#5 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#6 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#7 {main} 
+2020-07-08 01:32:08pm. LINE : 65 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> install .htaccess file. 
+2020-07-08 01:33:44pm. LINE : 66 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> install .htaccess file. 
+2020-07-08 01:34:31pm. LINE : 66 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> install .htaccess file. 
+2020-07-08 01:38:12pm. LINE : 66 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> install .htaccess file. 
+2020-07-08 01:38:42pm. LINE : 66 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> install .htaccess file. 
+2020-07-08 01:39:06pm. LINE : 66 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> install .htaccess file. 
+2020-07-08 01:39:21pm. LINE : 66 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> install .htaccess file. 
+2020-07-08 01:39:39pm. LINE : 66 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> install .htaccess file. 
+2020-07-08 01:39:54pm. LINE : 66 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> install .htaccess file. 
+2020-07-08 01:40:10pm. LINE : 66 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> install .htaccess file. 
+2020-07-08 01:40:32pm. LINE : 66 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> install .htaccess file. 
+2020-07-08 01:40:58pm. LINE : 66 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> install .htaccess file. 
+2020-07-08 01:41:18pm. LINE : 66 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> install .htaccess file. 
+2020-07-08 01:41:29pm. LINE : 66 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> install .htaccess file. 
+2020-07-08 01:42:35pm. LINE : 66 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> install .htaccess file. 
+2020-07-08 01:42:38pm. LINE : 66 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> install .htaccess file. 
+2020-07-08 01:42:57pm. LINE : 66 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> install .htaccess file. 
+2020-07-08 01:46:26pm. LINE : 30 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller was called but class dose't exits 
+2020-07-08 01:46:26pm. LINE : 30 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller was called but class dose't exits 
+2020-07-08 01:46:48pm. LINE : 30 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller was called but class dose't exits 
+2020-07-08 01:46:52pm. LINE : 30 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller was called but class dose't exits 
+2020-07-08 01:46:52pm. LINE : 30 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller was called but class dose't exits 
+2020-07-08 01:52:50pm. LINE : 46 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> modal called but method dos't exists 
+2020-07-08 03:44:03pm. LINE :  . METHOD:error --> Error: Call to a member function login() on null in D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php:27
+Stack trace:
+#0 [internal function]: Controller\admin->loginPost(Array)
+#1 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#3 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#4 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#5 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#6 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#7 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#8 {main} 
+2020-07-08 03:47:06pm. LINE :  . METHOD:error --> ArgumentCountError: Too few arguments to function Model\adminModel::login(), 0 passed in D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php on line 27 and exactly 2 expected in D:\xampp\htdocs\ModernMVC\Models\adminModel.php:8
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php(27): Model\adminModel->login()
+#1 [internal function]: Controller\admin->loginPost(Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#3 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#4 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#5 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#6 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#7 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#9 {main} 
+2020-07-08 03:55:40pm. LINE :  . METHOD:error --> ArgumentCountError: Too few arguments to function Libs\Database::query(), 1 passed in D:\xampp\htdocs\ModernMVC\Models\adminModel.php on line 9 and exactly 2 expected in D:\xampp\htdocs\ModernMVC\Libs\database.php:128
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Models\adminModel.php(9): Libs\Database->query('SELECT 1;')
+#1 D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php(47): Model\adminModel->login('asdasd', 'asdasdasdasd')
+#2 [internal function]: Controller\admin->loginPost(Array)
+#3 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#5 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#7 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#8 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#9 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#10 {main} 
+2020-07-08 03:56:19pm. LINE : 33 D:\xampp\htdocs\ModernMVC\Libs\Traits\render.traits.php. METHOD:error --> passed content is null 
+2020-07-08 03:57:11pm. LINE : 33 D:\xampp\htdocs\ModernMVC\Libs\Traits\render.traits.php. METHOD:error --> passed content is null 
+2020-07-08 03:58:11pm. LINE :  . METHOD:error --> Error: Call to undefined method Libs\Database::fach() in D:\xampp\htdocs\ModernMVC\Models\adminModel.php:9
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php(47): Model\adminModel->login('asdasd', 'asdasdasdasd')
+#1 [internal function]: Controller\admin->loginPost(Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#3 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#4 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#5 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#6 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#7 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#9 {main} 
+2020-07-08 03:58:21pm. LINE :  . METHOD:error --> Error: Call to undefined method Libs\Database::feach() in D:\xampp\htdocs\ModernMVC\Models\adminModel.php:9
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php(47): Model\adminModel->login('asdasd', 'asdasdasdasd')
+#1 [internal function]: Controller\admin->loginPost(Array)
+#2 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#3 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#4 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#5 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#6 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#7 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#8 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#9 {main} 
+2020-07-08 04:01:32pm. LINE :  . METHOD:error --> PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in D:\xampp\htdocs\ModernMVC\Libs\database.php:132
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(132): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Models\adminModel.php(9): Libs\Database->query('SELECT if (SELE...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php(47): Model\adminModel->login('asdasd', 'asdasdasdasd')
+#3 [internal function]: Controller\admin->loginPost(Array)
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-07-08 04:04:12pm. LINE :  . METHOD:error --> PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT username FROM admin WHERE username = 'asdasd's AND password = 'asdasdasd'' at line 1 in D:\xampp\htdocs\ModernMVC\Libs\database.php:132
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(132): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Models\adminModel.php(9): Libs\Database->query('SELECT if (SELE...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php(47): Model\adminModel->login('asdasd', 'asdasdasdasd')
+#3 [internal function]: Controller\admin->loginPost(Array)
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-07-08 04:04:33pm. LINE :  . METHOD:error --> PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT username FROM admin WHERE username = 'asdasd' AND password = 'asdasdasd' ' at line 1 in D:\xampp\htdocs\ModernMVC\Libs\database.php:132
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(132): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Models\adminModel.php(9): Libs\Database->query('SELECT if (SELE...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php(47): Model\adminModel->login('asdasd', 'asdasdasdasd')
+#3 [internal function]: Controller\admin->loginPost(Array)
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-07-08 04:05:44pm. LINE :  . METHOD:error --> PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT username FROM users WHERE username = 'asdasd' AND password = 'asdasdasd' ' at line 1 in D:\xampp\htdocs\ModernMVC\Libs\database.php:132
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(132): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Models\adminModel.php(9): Libs\Database->query('SELECT if (SELE...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php(47): Model\adminModel->login('asdasd', 'asdasdasdasd')
+#3 [internal function]: Controller\admin->loginPost(Array)
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-07-08 04:05:56pm. LINE :  . METHOD:error --> PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT username FROM users WHERE username = 'asdasd' AND password = 'asdasdasd' ' at line 1 in D:\xampp\htdocs\ModernMVC\Libs\database.php:132
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(132): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Models\adminModel.php(9): Libs\Database->query('SELECT if (SELE...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php(47): Model\adminModel->login('asdasd', 'asdasdasdasd')
+#3 [internal function]: Controller\admin->loginPost(Array)
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-07-08 04:05:57pm. LINE :  . METHOD:error --> PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT username FROM users WHERE username = 'asdasd' AND password = 'asdasdasd' ' at line 1 in D:\xampp\htdocs\ModernMVC\Libs\database.php:132
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(132): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Models\adminModel.php(9): Libs\Database->query('SELECT if (SELE...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php(47): Model\adminModel->login('asdasd', 'asdasdasdasd')
+#3 [internal function]: Controller\admin->loginPost(Array)
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-07-08 04:05:57pm. LINE :  . METHOD:error --> PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT username FROM users WHERE username = 'asdasd' AND password = 'asdasdasd' ' at line 1 in D:\xampp\htdocs\ModernMVC\Libs\database.php:132
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(132): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Models\adminModel.php(9): Libs\Database->query('SELECT if (SELE...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php(47): Model\adminModel->login('asdasd', 'asdasdasdasd')
+#3 [internal function]: Controller\admin->loginPost(Array)
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-07-08 04:06:34pm. LINE :  . METHOD:error --> PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT username FROM users WHERE username = 'asdasd' AND password = 'asdasdasd' ' at line 1 in D:\xampp\htdocs\ModernMVC\Libs\database.php:132
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(132): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Models\adminModel.php(9): Libs\Database->query('SELECT if (SELE...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php(47): Model\adminModel->login('asdasd', 'asdasdasdasd')
+#3 [internal function]: Controller\admin->loginPost(Array)
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-07-08 04:06:34pm. LINE :  . METHOD:error --> PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT username FROM users WHERE username = 'asdasd' AND password = 'asdasdasd' ' at line 1 in D:\xampp\htdocs\ModernMVC\Libs\database.php:132
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(132): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Models\adminModel.php(9): Libs\Database->query('SELECT if (SELE...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php(47): Model\adminModel->login('asdasd', 'asdasdasdasd')
+#3 [internal function]: Controller\admin->loginPost(Array)
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-07-08 04:06:51pm. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'privileges' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:132
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(132): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Models\adminModel.php(9): Libs\Database->query('SELECT if ((SEL...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php(47): Model\adminModel->login('asdasd', 'asdasdasdasd')
+#3 [internal function]: Controller\admin->loginPost(Array)
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-07-08 04:06:52pm. LINE :  . METHOD:error --> PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'privileges' in 'where clause' in D:\xampp\htdocs\ModernMVC\Libs\database.php:132
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(132): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Models\adminModel.php(9): Libs\Database->query('SELECT if ((SEL...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php(47): Model\adminModel->login('asdasd', 'asdasdasdasd')
+#3 [internal function]: Controller\admin->loginPost(Array)
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-07-08 04:07:51pm. LINE :  . METHOD:error --> PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in D:\xampp\htdocs\ModernMVC\Libs\database.php:132
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(132): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Models\adminModel.php(9): Libs\Database->query('if ((SELECT use...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php(47): Model\adminModel->login('asdasd', 'asdasdasdasd')
+#3 [internal function]: Controller\admin->loginPost(Array)
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-07-08 04:08:52pm. LINE :  . METHOD:error --> PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'if ((SELECT username FROM users WHERE username = 'asdasd' AND password = 'asdasd' at line 1 in D:\xampp\htdocs\ModernMVC\Libs\database.php:132
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(132): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Models\adminModel.php(9): Libs\Database->query('SELECT status i...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php(47): Model\adminModel->login('asdasd', 'asdasdasdasd')
+#3 [internal function]: Controller\admin->loginPost(Array)
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-07-08 04:09:01pm. LINE :  . METHOD:error --> PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as status)' at line 1 in D:\xampp\htdocs\ModernMVC\Libs\database.php:132
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(132): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Models\adminModel.php(9): Libs\Database->query('SELECT  if ((SE...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php(47): Model\adminModel->login('asdasd', 'asdasdasdasd')
+#3 [internal function]: Controller\admin->loginPost(Array)
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-07-08 04:09:21pm. LINE :  . METHOD:error --> PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS status)' at line 1 in D:\xampp\htdocs\ModernMVC\Libs\database.php:132
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(132): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Models\adminModel.php(9): Libs\Database->query('SELECT (if ((SE...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php(47): Model\adminModel->login('asdasd', 'asdasdasdasd')
+#3 [internal function]: Controller\admin->loginPost(Array)
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-07-08 04:09:34pm. LINE :  . METHOD:error --> PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AS status)' at line 1 in D:\xampp\htdocs\ModernMVC\Libs\database.php:132
+Stack trace:
+#0 D:\xampp\htdocs\ModernMVC\Libs\database.php(132): PDOStatement->execute(Array)
+#1 D:\xampp\htdocs\ModernMVC\Models\adminModel.php(9): Libs\Database->query('SELECT (if ((SE...', Array)
+#2 D:\xampp\htdocs\ModernMVC\Controller\admin.controller.php(47): Model\adminModel->login('asdasd', 'asdasdasdasd')
+#3 [internal function]: Controller\admin->loginPost(Array)
+#4 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(49): call_user_func(Array, Array)
+#5 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php(39): Core\router::loadMethod(Array, Array)
+#6 D:\xampp\htdocs\ModernMVC\Core\router.php(75): Core\router::loadController('post', Array, Array)
+#7 D:\xampp\htdocs\ModernMVC\Core\router.php(108): Core\router::request('/admin/login', NULL, 'post', NULL)
+#8 D:\xampp\htdocs\ModernMVC\Core\routes.php(13): Core\router::post('/admin/login')
+#9 D:\xampp\htdocs\ModernMVC\Core\request.php(29): require_once('D:\\xampp\\htdocs...')
+#10 D:\xampp\htdocs\ModernMVC\Public\index.php(18): Core\request->__construct()
+#11 {main} 
+2020-07-08 04:43:22pm. LINE : 52 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> passed id or content is empty. 
+2020-07-08 04:51:05pm. LINE : 52 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> passed id or content is empty. 
+2020-07-08 04:56:12pm. LINE : 52 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> passed id or content is empty. 
+2020-07-08 06:13:32pm. LINE : 19 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-07-08 06:14:10pm. LINE : 19 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-07-08 06:20:23pm. LINE : 19 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-07-08 06:22:12pm. LINE : 19 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-07-08 06:23:33pm. LINE : 19 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-07-08 06:28:14pm. LINE : 19 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-07-08 06:28:30pm. LINE : 19 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-07-08 06:28:38pm. LINE : 19 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-07-08 06:28:51pm. LINE : 19 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-07-08 06:29:29pm. LINE : 20 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> controller name is empty 
+2020-07-08 06:32:49pm. LINE : 48 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> modal called but method dos't exists 
+2020-07-08 06:36:04pm. LINE : 48 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> modal called but method dos't exists 
+2020-07-08 06:38:01pm. LINE : 72 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> Passed element is null 
+2020-07-08 06:38:01pm. LINE : 48 D:\xampp\htdocs\ModernMVC\Libs\Traits\loadController.traits.php. METHOD:error --> modal called but method dos't exists 
+2020-07-08 06:38:08pm. LINE : 72 D:\xampp\htdocs\ModernMVC\Core\router.php. METHOD:error --> Passed element is null 

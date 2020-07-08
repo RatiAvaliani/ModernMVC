@@ -45,6 +45,7 @@ class router {
      * and you can chane Views self::get(...)->view(filename)->view(filename)->view(filename)
      */
     public function view ($fileName=null, $parameters=null) {
+
         if (is_null($fileName)) {
             self::render(ERROR404);
             return self::error('file name empty.');
@@ -54,8 +55,9 @@ class router {
         return $this;
     }
 
-    public static function sessionFilter ($listOfSessions=[]) {
-        if (empty($listOfSessions)) self::error('passed id or content is empty.');
+    public function sessionFilter ($listOfSessions=[], $redirect='') {
+        if (empty($listOfSessions) || $redirect === '') self::error('Passed list or redirect');
+        if (self::$loadComplete !== true) return;
 
         $status = true;
 
@@ -63,8 +65,12 @@ class router {
             $sessionContent = self::getSession($key);
             if ($sessionContent !== $value) $status = false;
         }
+        if ($status === false) {
+            header('Location: ' . DOMAIN . $redirect);
+            self::$loadComplete = false;
+        }
 
-        return $status;
+        return $this;
     }
 
     public function jump () {
@@ -157,7 +163,10 @@ class router {
     protected static function compareRequest ($request=null, $url=null, $type="get") {
         if (is_null($request) && is_null($url)) return null;
 
-        if ($request === "" && $url === "/" || '/'.$request === self::$pagePath) return true;
+        if ($request === "" && $url === "/" || '/'.$request === self::$pagePath) {
+            self::$loadComplete = true;
+            return true;
+        }
 
 
         if (strtolower($_SERVER['REQUEST_METHOD']) !== $type) return false;

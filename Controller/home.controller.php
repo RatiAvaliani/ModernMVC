@@ -10,7 +10,6 @@ class home extends controller {
     }
 
     public function index ($paremeters) {
-        var_dump('ss');
         echo '<h1>Welcome</h1>';
     }
 }

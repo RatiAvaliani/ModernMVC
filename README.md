@@ -1,11 +1,17 @@
 # ModernMVC
 ### This MVC is basic, and If you want to add, modify any properties feel free to do so.
 #### Folder structure
+  ##### if you use this MVC right It will do most of the work for you. 
+  ###### Creating new controller: 
+  ####### When creating a new controller you need to use specific ending. like: example.controller.php.
+  ####### Use the Controller namespace inside of the file. like: ```namespace Controller```;
+  #######
+#### Folder structure
 ```
   - Config
      - config.php
   - Controller
-      - controller.php (an abstract class)
+      - controller.php
       - admin.controller.php
       - home.controller.php
       - langs.controller.php
@@ -52,5 +58,7 @@
       - .htaccess
       - index.php
    - install.sql
+ ```
+ 
     
    

@@ -34,6 +34,9 @@ class router {
         }
     }
 
+    /**
+     *
+     */
     public function __destruct() {
         if (self::$loadComplete === true) self::loadController($this->requestType, self::$pagePath, $this->variables);
     }
@@ -55,6 +58,11 @@ class router {
         return $this;
     }
 
+    /**
+     * @param array $listOfSessions
+     * @param string $redirect
+     * @return $this|void
+     */
     public function sessionFilter ($listOfSessions=[], $redirect='') {
         if (empty($listOfSessions) || $redirect === '') self::error('Passed list or redirect');
         if (self::$loadComplete !== true) return;
@@ -65,6 +73,7 @@ class router {
             $sessionContent = self::getSession($key);
             if ($sessionContent !== $value) $status = false;
         }
+
         if ($status === false) {
             header('Location: ' . DOMAIN . $redirect);
             self::$loadComplete = false;
@@ -73,6 +82,9 @@ class router {
         return $this;
     }
 
+    /**
+     * @return $this
+     */
     public function jump () {
         if (self::$urlStatus === true) array_shift(self::$pagePath);
 

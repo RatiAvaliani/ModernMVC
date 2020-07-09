@@ -11,7 +11,7 @@ trait session {
     public static function getSession ($id=null) {
         if (is_null($id)) return $_SESSION;
 
-        return array_key_exists($id, $_SESSION) ? $_SESSION[$id] : [];
+        return array_key_exists($id, $_SESSION) ? $_SESSION[$id] : false;
     }
 
     /**

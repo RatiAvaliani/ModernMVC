@@ -12,7 +12,8 @@ class langs {
         "editButton"     : "edit-button",
         "removeButton"   : "remove-button",
         "bootstrapModal" : "bootstrap-modal",
-        "modal"          : "modal-click"
+        "modal"          : "modal-click",
+        "modalSave"      : "modal-save"
     };
 
     exportOrder = [
@@ -25,11 +26,20 @@ class langs {
         'remove'
     ];
 
+    editOrder = [
+        'name',
+        'content'
+    ];
+
     constructor () {
+        this.set();
+    }
+
+    set (update=null) {
         (async() => {
-             await this.setTablas();
-             this.loadBootstrap();
-             this.loadActions();
+            await this.setTablas(update);
+            this.loadBootstrap();
+            this.loadActions();
         })();
     }
 
@@ -63,24 +73,58 @@ class langs {
             );
         });
 
-        $(`.${langs.tags.removeButton}`).click(function () {});
+        $(`.${langs.tags.removeButton}`).click((ev) => {
+            let _this = $(ev.currentTarget);
+            this.delete(_this.attr(langs.tags.dataLangId));
+        });
+    }
+
+    inputValidator () {
+        $('.input-form').validate({
+            rules: {
+                content : {
+                    required: true,
+                    minlength: 4
+                },
+                name : {
+                    required: true,
+                    minlength: 4
+                }
+            },
+            submitHandler: (element) => {
+                $(element).ajaxSubmit();
+            },
+            errorPlacement : (error, element) => {
+                element.parent().parent().append(error);
+            }
+        });
     }
 
     editAction (langType=null, langId=null, langsIndex=null) {
 
         var inputElements = (new Vea()).select('.modal-body');
-        $('.modal-title').text('edit');
+        $('.modal-title').text('Edit');
         (new Vea()).select('.modal-body').reset();
 
-        for (let input of this.exportOrder) {
-            let savedContent = langsList[langType][langId][input];
-            if (savedContent === undefined) continue;
+        (new Vea()).select('.modal-body').append('form').addAttr('method', 'post').addAttr('action', 'api/edit').addClass('input-form col-12').enter();
 
-            (new Vea()).select('.modal-body').append('div').addClass('input-group mb-3')
-            .append('div').addClass('input-group-prepend')
-            .append('span').addClass('input-group-text').addAttr('id', 'inputGroup-sizing-default').text(input).endElement()
-            .append('input').addClass('form-control').addAttr('value', savedContent).addAttr('type', 'text').addAttr('aria-label', 'Default').addAttr('aria-describedby', 'inputGroup-sizing-default').enter();
+        let savedContent = langsList[langType][langsIndex];
+        for (let input of this.editOrder) {
+
+            if (savedContent[input] === undefined) continue;
+            let Content = savedContent[input];
+
+            (new Vea()).select('.input-form').append('div').addClass('input-group col-6 float-left')
+                .append('div').addClass('input-group-prepend mt-2')
+                .append('span').addClass('input-group-text').addAttr('id', 'inputGroup-sizing-default').text(input).endElement()
+                .append('input').addAttr('name', input).addClass('form-control').addAttr('value', Content).addAttr('type', 'text').addAttr('aria-label', 'Default').addAttr('aria-describedby', 'inputGroup-sizing-default').enter();
         }
+
+        (new Vea()).select('.input-form')
+            .append('input').addAttr('type', 'hidden').addAttr('name', 'langId').addAttr('value', savedContent.id)
+            .append('input').addClass('btn btn-secondary col-12 mt-5').addAttr('type', 'submit').addAttr('value', 'Save').enter();
+
+        this.inputValidator();
 
         $(`#${langs.tags.modal}`).click();
     }
@@ -97,7 +141,7 @@ class langs {
         return this;
     }
 
-    setTablas () {
+    setTablas (update=null) {
         this.getCurrentLangType();
 
         let langName = this.langNameIterator();
@@ -105,21 +149,24 @@ class langs {
 
         while (langContent['done'] !== true) {
             langContent['promise'].then((langName) => {
-                this.loadeTabs(langName);
-        });
+                this.loadeTabs(langName, update);
+            });
             langContent = langName.next();
         }
         return true;
     }
 
-    loadeTabs (langName=null) {
+    loadeTabs (langName=null, update=null) {
         if (langName === null) return;
 
-        (new Vea())
+        let nav = (new Vea())
             .select('.nav-tabs')
             .append('li').addClass('nav-item')
-            .append('a').addClass(`nav-link ${langs.tags.changeLang}`).addAttr('href', '#').addAttr(langs.tags.dataLangType, langName).text(langName)
-            .enter();
+            .append('a').addClass(`nav-link ${langs.tags.changeLang}`).addAttr('href', '#').addAttr(langs.tags.dataLangType, langName).text(langName);
+
+        if (update !== null) nav.reset();
+
+        nav.enter();
 
         let activeLangType = $('.nav-item:nth-child(1)').find('a').addClass('active').attr(langs.tags.dataLangType);
 
@@ -193,7 +240,7 @@ class langs {
 
     }
 
-    reed () {
+    read () {
 
     }
 
@@ -205,8 +252,18 @@ class langs {
 
     }
 
-    delete () {
+    delete (langId=null) {
+        if (langId === null) throw new Error('Passed element empty');
 
+        $.ajax({
+            url: "api/remove",
+            type: "delete",
+            data: {
+                "langId" : langId
+            }
+        }).done(() => {
+            console.log('removed reload');
+        });
     }
 }
 

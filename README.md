@@ -23,6 +23,13 @@
  ###### Creating new Assets:
  - [x]  Inside of the folder ``` Public/Assets/ ``` you can add ```js``` and ```css```
  - [x]  To use auto loade function you will need to create folder inside of ```js``` or ```css```, the same name needs to be used as controller and the names of ```js``` and ```css``` needs to correspond to controller method names.
+ ###### Creating new default errors:
+ - [x]  Inside of ``` Public/Errors/ ``` you can add more error html files.
+ ###### Creating new default elements like (header and footer):
+ - [x]  Inside of ``` Public/deafult/ ``` you can add or modify ``` header.php ``` or ``` footer.php ```.
+ ###### Config
+ - [x]  Inide of config you need to change ``` define('DOMAIN', 'http://localhost/ModernMVC/Public/'); ``` and ``` define('DB_CONFIG',  ...) ``` constants
+
 #### Folder structure
 ```
   - Config

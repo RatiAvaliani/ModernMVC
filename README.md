@@ -3,10 +3,10 @@
 #### Folder structure
   ##### if you use this MVC right It will do most of the work for you. 
   ###### Creating new controller: 
-  When creating a new controller you need to use specific ending. like: example.controller.php.
-  Use the Controller namespace inside of the file. Like: ``` namespace Controller ```.
-  When creating a class you need to extend controller abstract class. Like: ``` class example extends controller ```.
-  Inside of the ``` __construct ``` method you need to call parent constructor. Like: ``` parent::__construct(); ```.
+ - [x] When creating a new controller you need to use specific ending. like: example.controller.php.
+ - [x] Use the Controller namespace inside of the file. Like: ``` namespace Controller ```.
+  - [x]When creating a class you need to extend controller abstract class. Like: ``` class example extends controller ```.
+ - [x] Inside of the ``` __construct ``` method you need to call parent constructor. Like: ``` parent::__construct(); ```.
   #######
 #### Folder structure
 ```
